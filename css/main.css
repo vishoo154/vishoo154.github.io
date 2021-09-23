@@ -1,0 +1,482 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family:  'Work Sans', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 93px	
+}
+
+p {
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1100px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+	height: 755px; 
+}
+
+.header {
+	
+
+	background: url('../img/14.png')  no-repeat center top / cover fixed; 
+	padding-top:57px;
+	color: #5D5FEF;
+	padding-bottom: 322px;
+
+}
+
+.logo {
+	margin-top: 9px;
+	margin-right: 19px;
+	margin-left: 10px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.menu li a {
+	text-transform: uppercase;  /*меню капсом*/
+	font-size: 20px;
+	letter-spacing: -0.02em; /*размер между буквами*/
+	font-style: normal;
+	color: #3344A8;
+	mix-blend-mode: hard-light;
+
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li { 
+	margin-right: 75px; /*поле справа*/
+}
+
+.tel {
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: 15px;
+	font-style: normal;
+	color: #3344A8;
+	mix-blend-mode: hard-light;
+	
+}
+
+.nav { 
+	display: flex;
+	align-items: center;
+	margin-left: 0px;
+	margin-top: -60px;
+	background: rgba(196, 196, 196, 0.3);
+}
+
+.offer {
+	
+    text-transform: none;
+    margin-top: 286px;
+    margin-left: 570px;
+}
+
+.offer p {
+	width: 626.04px;
+	height: 57.8px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: -0.02em;
+
+	color: #3344A8;
+
+}
+
+.offer h1 {
+	font-size: 90px;
+	margin-bottom: 10px;
+	letter-spacing: 0.00em
+	border: 0.5px solid rgba(0, 0, 0, 0.5);
+	color: white;
+	margin-left: 0px;
+}
+
+.btn { 
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+    margin-top: 27px;
+    margin-left: 140px;
+}
+
+.btn:hover {
+	background: #fff;
+    color:#4657C8;
+}
+
+.description {
+	display: flex;
+
+	/*justify-content: space-between;*/
+	
+}
+
+.hello {
+    margin-top: 160px;
+    margin-left: 12px;
+    flex-direction: column;
+}
+.about {
+
+background: #4657C8 no-repeat center top / cover;
+
+}
+
+.hello p {
+	width: 590px;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 35px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #FAF7FA;
+}
+
+.hello1 p:first-letter {
+	font-size: 64px;
+    color: #EFAFEF; /* Розов первой буквы */
+   }
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+
+.gallery {
+	width: 400.17px;
+height: 500.69px;
+    margin-top: -387px;
+    display: flex;
+    margin-bottom: 15%;
+    margin-left: 640px;
+}
+
+.skills {
+	background: white no-repeat center top / cover;
+}
+
+.description1 {
+width: 954px;
+height: 70px;
+
+}
+
+.description1 h1 {
+margin-left: 79px;
+margin-top: -35px;
+font-style: normal;
+font-weight: bold;
+font-size: 34px;
+line-height: 55px;
+letter-spacing: -0.02em;
+
+color: #4657CE;
+
+}
+
+.menu1 {
+    display: flex;
+    margin-top: 108px;
+    margin-left: -849px;
+}
+
+.menu1 li { 
+	margin-right: 65px; /*поле справа*/
+}
+
+.menu1 li h1 {
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.02em;
+
+color: #4657CE;
+}
+
+.zebra {
+	list-style: circle;
+  list-style-position: inside;
+margin-top: 39px;  
+}
+.zebra li {
+	font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: -0.02em;
+
+color: #4657CE;
+padding: 10px 0;
+border-bottom: 1px solid #efefef;
+
+}
+
+.tochka {
+	width: 16px;
+height: 14px;
+margin-top: -14px;
+background: #4657C8;
+}
+
+.poloska {
+height: 14px;
+margin-top: 30px;
+background: #EFAFEF;
+}
+.footer {
+	background: #4657C8;
+	height: 129px;
+
+}
+
+.inst {
+width: 60px;
+height: 60px;
+margin-left: 470px;
+margin-top: -100px;
+padding-top: 10px;
+}
+
+.geo {
+width: 50px;
+height: 50px;
+}
+
+.footer-text1{
+    margin-left: 1000px;
+    margin-top: -100px;
+}
+
+.footer-text1 li {
+    margin-left: 61px;
+    margin-top: -35px;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: white;
+}
+
+.zebra1 {
+    margin-top: -62px;
+    margin-left: 550px;
+    width: 190px;
+}
+
+.zebra1 li {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #FAF7FA;
+    padding: 10px 0;
+    border-bottom: 1px solid #efefef;
+}
+
+
+
+/*от 991 до 1199*/
+@media screen and (max-width: 1199px) {
+	.container {
+		width: 960px;
+	}
+	.desc-left, .desc-right {
+		width: 48%;
+	}
+	.hello p {
+		width: 89%;
+	}
+	.gallery{
+	margin-top: -100%;
+    margin-left: 115%;
+	}
+	.menu1 { 
+	width: 100%;
+	}
+	.offer {
+		margin-left: 46%;
+	}
+
+	.menu { 
+	width: 20%;
+	margin-left: 3%;
+	}
+
+
+	.menu1 li {
+    margin-right: 25px;
+}
+
+	.mid {
+    margin-left: -10%;
+}
+
+.footer-text1 {	
+ margin-left: 80%;
+}
+.menu li a {
+	font-size: 18px;
+
+}
+.tel {
+	font-size: 16px;
+}
+.offer h1 {
+	font-size: 80px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+	.container {
+		width: 720px;
+	}
+	.offer h1 {
+	font-size: 60px;
+}
+.offer p {
+	    width: 396.04px;
+    	font-size: 21px;
+}
+.btn {
+    margin-left: 50px;
+}
+.menu {
+		display: none;
+	}
+	.menu-open {
+	    display: block
+	}
+	.hello {
+    margin-top: 60px;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 540px;
+	}
+	.menu {
+		display: none;
+	}
+	.menu-open {
+	    display: block
+	}
+	.offer h1 {
+		line-height: 1em;
+    	margin-top: 10px;
+	}
+	.description {
+		flex-wrap: wrap;
+	}
+	.desc-left, .desc-right {
+		width: 100%;
+	}
+	.desc-left {
+		margin-bottom: 40px;
+	}
+	.gallery img:nth-child(1),
+	.gallery img:nth-child(2),
+	.gallery img:nth-child(3) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.gallery {
+		flex-wrap: wrap;
+	}
+	.footer-text {
+		flex-wrap: wrap;
+	}
+	.footer-text p:nth-child(1) {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.container {
+		width: 100%;
+		padding: 0 15px;
+	}
+	.offer h1 {
+		font-size: 80px;
+	}
+	.tel {
+		display: none;
+	}
+	.menu-open {
+		margin-left: auto;
+	}
+	.offer {
+margin-left: 99%;
+	}
+}
