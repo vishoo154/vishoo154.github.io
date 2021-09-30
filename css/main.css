@@ -67,6 +67,12 @@ ul, li {
 	margin-left: 10px;
 }
 
+.logo1 {
+	margin-top: 9px;
+	margin-right: 19px;
+	margin-left: 10px;
+}
+
 .menu {
 	display: flex;
 	align-items: center;
@@ -748,6 +754,12 @@ background: url(../img/4.png) #EFAFEF no-repeat center top;
     /* margin-left: 10px; */
     width: 50%;
 }
+.logo1 {
+    /* margin-top: 9px; */
+    /* margin-right: 19px; */
+    /* margin-left: 10px; */
+    width: 30%;
+}
 .zebra1 li {
 
     line-height: 13px;
@@ -762,9 +774,9 @@ background: url(../img/4.png) #EFAFEF no-repeat center top;
     font-size: 14px;
     
 }
-
+.mid {
+    margin-top: -25%;
 }
-
 .inst {
     display: none;
 }
